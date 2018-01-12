@@ -93,7 +93,7 @@
 
             self.Debug("Tick called");
             ticks++;
-            self.Debug("Ticks: " + ticks++);
+            self.Debug("Ticks: " + ticks);
 
             var countdown = (options.timeout + options.showWarningBoxFor) - ticks;
             $("#APIKings-st-timeleft").each(function () {
